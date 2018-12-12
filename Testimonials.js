@@ -7,7 +7,7 @@ function Quote(props) {
   const rows = props.quoteData.map((row, index) => {
     return (
       <blockquote key={index} className="blockquote">
-        <img src={row.image} alt="..." class="rounded mx-auto d-block" width="100" />
+        <img src={row.image} alt="..." className="rounded mx-auto d-block" width="100" />
         <p className="mb-0">{row.testimonial}</p>
         <footer className="blockquote-footer">{row.name} - <cite title="Source Title">{row.location}</cite></footer>
       </blockquote>
