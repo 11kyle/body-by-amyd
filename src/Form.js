@@ -26,7 +26,7 @@ class Form extends Component {
             <input type="checkbox" className="form-check-input" id="exampleCheck1" />
             <label className="form-check-label" htmlFor="exampleCheck1">Stay up to date with my monthly newsletter!</label>
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-dark">Submit</button>
         </form>
       </div>
     );

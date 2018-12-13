@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Pricing extends Component {
   render () {
     return (
-      <div className="container">
+      <div className="container" id="pricing">
         <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
           <h1 className="display-4">Pricing</h1>
           <p className="lead">Come train with an ACE! Certified functional trainer and fitness nutrition specialist. Online or in person!</p>
@@ -20,7 +20,7 @@ class Pricing extends Component {
                 <li>1 on 1 atmosphere</li>
                 <li>Goal oriented</li>
               </ul>
-              <button type="button" className="btn btn-lg btn-block btn-primary">Get started</button>
+              <button type="button" className="btn btn-lg btn-block btn-dark">Get started</button>
             </div>
           </div>
           <div className="card mb-4 shadow-sm">
@@ -34,7 +34,7 @@ class Pricing extends Component {
                 <li>1 session</li>
                 <li>1 on 1 atmosphere</li>
               </ul>
-              <button type="button" className="btn btn-lg btn-block btn-primary">Get started</button>
+              <button type="button" className="btn btn-lg btn-block btn-dark">Get started</button>
             </div>
           </div>
           <div className="card mb-4 shadow-sm">
@@ -48,7 +48,7 @@ class Pricing extends Component {
                 <li>8 sessions</li>
                 <li>1 on 1 atmosphere</li>
               </ul>
-              <button type="button" className="btn btn-lg btn-block btn-primary">Get started</button>
+              <button type="button" className="btn btn-lg btn-block btn-dark">Get started</button>
             </div>
           </div>
         </div>
